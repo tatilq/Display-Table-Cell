@@ -4,13 +4,38 @@
     font-weight: 400;
     src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
 }
+
 body, div, h1, h2, h3, h4, h5, h6, 
 p, ul, ol, li, dl, dt, dd, img, form, 
-fieldset, input, textarea, blockquote {
+fieldset, input, textarea, blockquote 
+{
     margin: 0;
     padding: 0;
     border: 0;
 }
-body {
+
+body 
+{
     background: #ffffff;
+}
+nav li
+{
+	display: block;
+}
+
+nav li a 
+{
+	padding-left:60px;
+	display: table;
+	height:  60px;
+	width:  60px;
+	background:#C8A5C4;
+
+
+}
+nav li a span
+{
+	display: table-cell;
+	vertical-align: middle;
+
 }
